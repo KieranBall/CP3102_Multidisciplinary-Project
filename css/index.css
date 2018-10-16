@@ -12,8 +12,18 @@
     margin: 0.2%;
     width: 49.6%;
     padding: 20px;
-
+    transition: 0.3s;
 }
+
+.test_card:hover {
+    background-color: #f8f9fa;
+}
+
+
+
+
+
+
 
 #flex-container{
     display: flex;
