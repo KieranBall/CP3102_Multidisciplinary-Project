@@ -11,15 +11,22 @@
     /*background-color: #7AB800;*/
     background-image: url("../images/f5100b98.png");
     color: #ffffff;
-    min-height: 250px;
-    margin: 0.5%;
-    width: 49%;
+    height: 300px;
+    width: 45%;
+    min-width: 400px;
+    margin: 2px;
     padding: 35px;
     transition: 0.3s;
     padding-top: 60px;
     border-radius: 0;
+}
 
 
+#flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
@@ -56,10 +63,7 @@ body{
 }
 
 
-#flex-container{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 #header{
     min-height: 95vh;
