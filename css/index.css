@@ -10,22 +10,24 @@
 .fact_cards{
     /*background-color: #7AB800;*/
     color: #649600;
-    background-image: url("../images/bottom_right.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 25%;
+    /*background-image: url("../images/bottom_right.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right bottom;*/
+    /*background-size: 25%;*/
     min-height: 250px;
     margin: 0.5%;
     width: 49%;
-    padding: 20px;
+    padding: 35px;
     transition: 0.3s;
     padding-top: 60px;
-    border-radius: 0px;
+    border-radius: 0;
+
+
 }
 
 
 .fact_cards:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 
@@ -36,6 +38,7 @@
     margin-top: 20px;
     margin-bottom: 50px;
     line-height: 1.5;
+
 }
 
 #card_stats_facts_contain{
@@ -46,6 +49,11 @@
 #flex-container{
     display: flex;
     flex-wrap: wrap;
+}
+
+body{
+    background-image: url("../images/f1ed2a7f.png");
+    background-attachment: fixed;
 }
 
 #header{
