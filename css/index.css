@@ -10,10 +10,10 @@
 .fact_cards{
     /*background-color: #7AB800;*/
     color: #649600;
-    /*background-image: url("../images/bottom_right.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: right bottom;*/
-    /*background-size: 25%;*/
+    background-image: url("../images/bottom_right.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
     min-height: 250px;
     margin: 0.5%;
     width: 49%;
@@ -27,7 +27,8 @@
 
 
 .fact_cards:hover {
-    opacity: 0.6;
+    background-color: #f0f0f0;
+    opacity: 0.8;
 }
 
 
@@ -52,7 +53,7 @@
 }
 
 body{
-    background-image: url("../images/f1ed2a7f.png");
+    background-image: url("../images/695d0e8e.png");
     background-attachment: fixed;
 }
 
