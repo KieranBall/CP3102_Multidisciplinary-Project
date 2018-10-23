@@ -7,7 +7,7 @@
 
 }
 
-.test_card{
+.fact_cards{
     min-height: 300px;
     margin: 0.2%;
     width: 49.6%;
@@ -15,14 +15,22 @@
     transition: 0.3s;
 }
 
-.test_card:hover {
+.fact_cards:hover {
     background-color: #f8f9fa;
 }
 
 
+#modal_body{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 
+#card_stats_facts_contain{
+    text-align: center;
 
-
+}
 
 
 #flex-container{

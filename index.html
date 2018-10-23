@@ -45,7 +45,7 @@
 
     <div id="flex-container">
 
-        <div class="card test_card text-center">
+        <div class="card fact_cards text-center">
             <div class="card-body" onclick="on_card_click('1')" data-toggle="modal" data-target="#info_model">
                 <h5 class="card-title">
                     Townsville businesses financially benefit from the North Queensland Stadium.
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <div class="card test_card text-center">
+        <div class="card fact_cards text-center">
             <div class="card-body" onclick="on_card_click('2')" data-toggle="modal" data-target="#info_model">
                 <h5 class="card-title">
                     North Queensland Stadium Brings Local Jobs Yes LOCAL.
@@ -84,19 +84,24 @@
 
                     <p id="modal_body"></p>
 
-                    <div class="container">
+                    <div class="container" id="card_stats_button_contain">
                         <div class="row">
                             <div class="col">
-                                <button type="button" class="btn btn-success  btn-block">Glad i know that now</button>
+                                <button type="button" class="btn btn-success btn-block" onclick="on_card_stats_click(0)">Glad i know that now</button>
 
                             </div>
                             <div class="col">
-                                <button type="button" class="btn btn-danger  btn-block">I am still skeptical</button>
+                                <button type="button" class="btn btn-danger btn-block" onclick="on_card_stats_click(1)">I am still skeptical</button>
                             </div>
                         </div>
 
 
                     </div>
+
+                        <div id="card_stats_facts_contain">
+
+
+                        </div>
                 </div>
                 <div class="modal-footer justify-content-center">
 

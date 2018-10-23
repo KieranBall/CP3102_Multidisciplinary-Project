@@ -12,6 +12,8 @@ var description9 = "The Townsville economy is a diverse and complex system of in
 
     function on_card_click(card_id) {
 
+        document.getElementById("card_stats_button_contain").style.display = "block";
+        document.getElementById("card_stats_facts_contain").style.display = "none";
 
     switch(card_id) {
         case "1":
@@ -44,6 +46,34 @@ var description9 = "The Townsville economy is a diverse and complex system of in
         default:
             document.getElementById("modal_title").innerText = "Data Error!";
     }
+
+}
+
+function on_card_stats_click(num) {
+
+
+    document.getElementById("card_stats_button_contain").style.display = "none";
+    document.getElementById("card_stats_facts_contain").style.display = "block";
+
+
+    var min = 10;
+    var max = 90;
+
+    var random_percentage = Math.random()*(max-min+1)+min;
+    random_percentage = parseInt(random_percentage);
+
+        switch (num) {
+            case 0:
+                console.log(random_percentage);
+                document.getElementById("card_stats_facts_contain").innerHTML = "<h4>" + random_percentage + "% of people also knew that</h4>";
+                break;
+            case 1:
+                console.log(random_percentage);
+                document.getElementById("card_stats_facts_contain").innerHTML = "<h4>" + random_percentage + "% of people were also skeptical</h4>";
+                break;
+
+        }
+
 
 }
 
