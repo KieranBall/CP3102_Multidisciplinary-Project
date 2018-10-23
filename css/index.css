@@ -3,15 +3,20 @@
     min-height: 80vh;
     margin: auto;
     margin-top: 20px;
+    /*background-color: #0b2e13;*/
 }
 
 
 .fact_cards{
     /*background-color: #7AB800;*/
-    /*color: #ffffff;*/
+    color: #649600;
+    background-image: url("../images/bottom_right.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 25%;
     min-height: 250px;
-    margin: 0.2%;
-    width: 49.6%;
+    margin: 0.5%;
+    width: 49%;
     padding: 20px;
     transition: 0.3s;
     padding-top: 60px;
@@ -22,6 +27,7 @@
 .fact_cards:hover {
     opacity: 0.8;
 }
+
 
 
 #modal_body{
