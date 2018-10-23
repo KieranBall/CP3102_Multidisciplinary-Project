@@ -1,4 +1,4 @@
-#main_container{
+#card_container{
     width: 80%;
     min-height: 80vh;
     margin: auto;
@@ -43,7 +43,7 @@
 }
 
 #header{
-    min-height: 85vh;
+    min-height: 95vh;
     background-image: url("../images/NQS_Aerial_01.jpg");
     margin-bottom: 150px;
     background-position: center;
@@ -51,6 +51,17 @@
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+
+}
+
+#header_jumbotron{
+    background-color: transparent;
+    color: #ffffff;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding-top: 25vh;
+
 
 }
 
