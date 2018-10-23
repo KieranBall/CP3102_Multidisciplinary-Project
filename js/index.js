@@ -77,3 +77,14 @@ function on_card_stats_click(num) {
 
 }
 
+function on_header_button_click() {
+    document.querySelector('#card_container').scrollIntoView({
+        behavior: 'smooth',
+        block: "start"
+    });
+
+
+}
+
+
+//element.scrollIntoView({behavior: "instant", block: "end", inline: "nearest"});
