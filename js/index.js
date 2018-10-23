@@ -86,5 +86,9 @@ function on_header_button_click() {
 
 }
 
+function share_to_twitter() {
+    // Opens a pop-up with twitter sharing dialog
 
-//element.scrollIntoView({behavior: "instant", block: "end", inline: "nearest"});
+    window.location.href = 'https://twitter.com/home?status=Get%20all%20the%20Townsville%20stadium%20facts%20today%20at,%0Awww.getthefacts.com';
+
+}

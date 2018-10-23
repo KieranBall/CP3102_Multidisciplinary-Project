@@ -30,6 +30,10 @@ body{
     opacity: 0.8;
 }
 
+#card_stats_button_contain{
+    margin-bottom: 10px;
+}
+
 
 
 #modal_body{
