@@ -147,3 +147,31 @@ body{
     background-color: #A10000 !important;
     border-color: #A10000 !important;
 }
+
+
+#facebook_share, #facebook_share:active, #facebook_share:visited {
+    background-color: #3B5998 !important;
+    border-color: #3B5998 !important;
+    color: #ffffff;
+}
+
+#facebook_share:hover{
+    background-color: #224389 !important;
+    border-color: #224389 !important;
+    color: #ffffff;
+}
+
+
+#twitter_share, #twitter_share:active, #twitter_share:visited {
+    background-color: #1DA1F2 !important;
+    border-color: #1DA1F2 !important;
+    color: #ffffff;
+}
+
+#twitter_share:hover{
+    background-color: #0798EE !important;
+    border-color: #0798EE !important;
+    color: #ffffff;
+}
+
+

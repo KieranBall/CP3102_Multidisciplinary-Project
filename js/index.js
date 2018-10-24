@@ -90,7 +90,17 @@ function share_to_twitter() {
     // Opens a pop-up with twitter sharing dialog
 
     window.open(
-        'https://twitter.com/home?status=Get%20all%20the%20Townsville%20stadium%20facts%20today%20at,%0Awww.getthefacts.com',
+        'https://twitter.com/home?status=Get%20the%20facts%20today.%0AGet%20the%20facts%20%7C%20North%20Queensland%20Stadium%20',
+        '_blank'
+    );
+
+}
+
+function share_to_facebook() {
+    // Opens a pop-up with twitter sharing dialog
+
+    window.open(
+        'https://www.facebook.com/sharer/sharer.php?u=https%3A//kieranball.github.io/CP3102_Multidisciplinary-Project/',
         '_blank'
     );
 
